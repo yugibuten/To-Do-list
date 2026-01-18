@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #f8f3eb 0%, #f0e7db 35%, #d5e3e8 100%);
+  color: #0f172a;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.gradient-panel {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(240, 233, 221, 0.88));
+  backdrop-filter: blur(16px);
+}
+
+.ink-shadow {
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.15);
+}
+
+.text-title {
+  font-family: "Syne", "Space Grotesk", sans-serif;
+}
