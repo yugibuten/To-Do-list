@@ -2,6 +2,15 @@
 
 Production-ready TODO application with a FastAPI backend and a React + Tailwind frontend.
 
+## Key Features
+- Full CRUD tasks: create, edit, toggle complete, delete.
+- Filters: status (all/completed/pending) and category.
+- Search with debounce and server-side filtering.
+- Sorting by created date, priority, due date, or title.
+- Task stats: total, completed, pending, completion rate.
+- Polished UI with glassmorphism cards, toasts, and confirmations.
+- Accessibility touches (aria labels, focus management, keyboard search).
+
 ## Project Structure
 
 ```
