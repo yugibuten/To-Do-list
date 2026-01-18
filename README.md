@@ -1,4 +1,4 @@
-# Full-Stack TODO List
+# TODO List
 
 Production-ready TODO application with a FastAPI backend and a React + Tailwind frontend.
 
@@ -84,4 +84,6 @@ Base URL: `http://localhost:8000/api`
 cd backend
 pytest
 ```
-# To-Do-list
+
+
+
